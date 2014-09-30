@@ -1,0 +1,10 @@
+ 
+ .searchform .searchfield ,.subsform .subsfield{padding-bottom:2px;}
+ 
+
+.searchform, .subsform{filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); -ms-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed'); }
+ 	.searchform .searchbutton,.subsform .nletterbutton { height:27px;} 
+	.searchform .searchbutton,.subsform .nletterbutton{position:relative; top:-1px;}
+	.subsform input[type="text"]{height:18px;}
+	.searchform input[type="text"]{height:22px;}
+

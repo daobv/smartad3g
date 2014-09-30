@@ -1,0 +1,1 @@
+<?php include_once('tweets-widget.php'); include_once('flickr-widget.php'); include_once('email_news_subscribe_widget.php'); include_once('category-post-widget.php'); include_once('popular-posts-widget.php'); include_once('homepage_singlet_widget.php'); ?>

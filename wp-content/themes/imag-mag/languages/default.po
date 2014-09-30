@@ -1,0 +1,1245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Madura 1.0.0\n"
+"POT-Creation-Date: 2012-10-24 18:11+0530\n"
+"PO-Revision-Date: 2012-10-24 18:17+0530\n"
+"Last-Translator: \n"
+"Language-Team: ThemePacific\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp_new\\htdocs\\wpdemo\\wp-content\\themes"
+"\\Magpress\n"
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/404.php:1
+msgid "Page Not Found"
+msgstr "Page Not Found"
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/archive.php:17
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Daily Archives: %s"
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/archive.php:19
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/archive.php:21
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Yearly Archives: %s"
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/archive.php:23
+#, php-format
+msgid "Articles Posted in the \" %s \" Category"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/archive.php:25
+#, php-format
+msgid "Articles Posted by the Author: %s"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/archive.php:27
+msgid "Blog Archives"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/comments.php:6
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/comments.php:12
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/comments.php:6
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/comments.php:12
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/comments.php:17
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/comments.php:20
+msgid "Name"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/comments.php:20
+msgid "Email"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/comments.php:20
+msgid "Website"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/comments.php:20
+msgid "Leave a Reply"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/footer.php:43
+msgid "Back to Top"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:184
+msgid "Top Menu"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:185
+msgid "Cat Menu"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:362
+msgid "Pingback:"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:362
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:390
+msgid "Edit"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:380
+#, php-format
+msgid "%1$s  %2$s  "
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:385
+#, php-format
+msgid "<span class=\"time\">%1$s </span>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:394
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:402
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:419
+msgid "Add New Portfolio"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:420
+msgid "Edit Portfolio"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:421
+msgid "New Portfolio"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:422
+msgid "View Portfolio"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:423
+msgid "Search Portfolios"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:424
+msgid "No Portfolios found"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:425
+msgid "No Portfolios found in Trash"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:453
+msgid "Search Types"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:454
+msgid "All Tags"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:455
+msgid "Parent Tag"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:456
+msgid "Parent Tag:"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:457
+msgid "Edit Tags"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:458
+msgid "Update Tag"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:459
+msgid "Add New Tag"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:460
+msgid "New Tag Name"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:479
+#, php-format
+msgid "portfolio updated. <a href=\"%s\">View portfolio</a>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:480
+msgid "Custom field updated."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:481
+msgid "Custom field deleted."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:482
+msgid "portfolio updated."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:484
+#, php-format
+msgid "portfolio restored to revision from %s"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:485
+#, php-format
+msgid "portfolio published. <a href=\"%s\">View portfolio</a>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:486
+msgid "portfolio saved."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:487
+#, php-format
+msgid ""
+"portfolio submitted. <a target=\"_blank\" href=\"%s\">Preview portfolio</a>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:488
+#, php-format
+msgid ""
+"portfolio scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview portfolio</a>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:490
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/functions.php:491
+#, php-format
+msgid ""
+"portfolio draft updated. <a target=\"_blank\" href=\"%s\">Preview portfolio</"
+"a>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/image.php:30
+msgid "&larr; Previous Image"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/image.php:31
+msgid "Next  Image &rarr;"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/image.php:81
+msgid "Pages:"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/image.php:96
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/single-portfolio.php:81
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/single.php:133
+msgid "About the Author"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/search.php:1
+#, php-format
+msgid "Search results for \"%s\" "
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/searchform.php:1
+msgid "Search here.."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/classes/class.options_machine.php:1029
+msgid "Last Backup : "
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/classes/class.options_machine.php:1089
+msgid "Upload"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/front-end/options.php:33
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/front-end/options.php:59
+msgid "Save All Changes"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/front-end/options.php:60
+msgid "Options Reset"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.mediauploader.php:20
+msgid "Options"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.mediauploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.mediauploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:123
+msgid "General Settings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:128
+msgid "<h3>General Settings</h3>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:133
+msgid "Custom Favicon"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:134
+msgid ""
+"Upload a 16px x 16px Png/Gif image that will represent your website favicon"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:139
+msgid "Custom Logo"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:140
+msgid "Upload a Png/Gif image that will represent your website Logo."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:144
+msgid "Custom Feed URL"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:145
+msgid "Enter Feedburner URL or Other"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:150
+msgid "Tracking Code"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:151
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. Dont forget to "
+"add script tags,if not in the code</br><small> &lt;script&gt; ...,.. &lt;/"
+"script&gt; </small>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:155
+msgid "Show Footer Widgets"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:156
+msgid "Select to show the Footer Widgets."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:162
+msgid "Footer Text"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:163
+msgid "Add the Copyright text info."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:168
+msgid "Show Scroll to top image"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:169
+msgid "Select to show Scroll to top image."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:175
+msgid "Site Layout"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:177
+msgid "Site layout"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:183
+msgid "Header Layout"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:184
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:207
+msgid "Select your Theme Style."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:194
+msgid "Content Layout"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:195
+msgid ""
+"Select main content and sidebar alignment.1.Right Sidebar,2.Left Sidebar"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:206
+msgid "Footer Layout"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:216
+msgid "Home Settings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:223
+msgid "<h3>Home Page Content Organizer</h3>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:227
+msgid "Homepage Top Layout Manager"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:228
+msgid "Organize how you want the Slider and Carousel to appear on the homepage"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:232
+msgid "Homepage Content Layout Manager"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:233
+msgid "Organize how you want the layout to appear on the homepage"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:238
+msgid "Tradional Blog Thumbnail Alignment"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:239
+msgid "Choose the TRADITIONAL Blog Thumbnail alignment"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:249
+msgid "Slider Carousel"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:256
+msgid "<h3>Slider And Carousel Organizer</h3>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:260
+msgid "Top Carousel"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:261
+msgid "check to enable/disable Carousel in Top"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:268
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:282
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:297
+msgid "A list of all the categories being used on the site."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:274
+msgid "Blog Carousel 1 "
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:275
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:290
+msgid "check to enable/disable Posts slides"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:289
+msgid "Blog Carousel 2 "
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:305
+msgid "HomePage Slider"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:306
+msgid "Check to enable/disable HomePage slider"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:312
+msgid "Show Large or Small slider"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:313
+msgid "Choose Large or Small HomePage slider."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:322
+msgid "Select a Category or use Theme Slider options"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:323
+msgid ""
+"Select category for slider. If you want to use theme slider options,then "
+"leave it to default option."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:329
+msgid "Theme Slider Options"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:330
+msgid "Unlimited slider with drag and drop sortings."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:338
+msgid "Single Posts"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:343
+msgid "<h3>Single Posts Settings</h3>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:347
+msgid "Show Featured image on posts"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:356
+msgid "Show Single Post navigation"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:365
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:375
+msgid "Show Author box on posts"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:387
+msgid "Show related posts on posts"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:388
+msgid "Check to Show related posts on posts"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:393
+msgid "Show related posts by Category Wise or Tag Wise"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:403
+msgid "Enter Number of Posts"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:411
+msgid "Show Tags on posts"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:420
+msgid "Post Meta Info"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:421
+msgid ""
+"Enter Post Meta Info By using Below Shortcodes..Remove or change the "
+"position WhatEver.! </br>Author        : [author_link] </br> Post Date  : "
+"[the_date] </br> Category  : [the_category] </br> Commnets  : [comments_link]"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:426
+msgid "Social Accounts"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:431
+msgid "<h3>Social Network Accounts</h3>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:436
+msgid "Social Icons in Top Navigation of Header"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:437
+msgid ""
+"Select to enable/disable the social icons in the Top Navigation of header."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:443
+msgid "RSS"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:444
+msgid ""
+"Add the URL you want and RSS icon will appear. Just leave it blank ,To "
+"remove it.</br><small>Example:http://feeds.feedburner.com/YOUR-FEED-NAME</"
+"small>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:448
+msgid "Twitter"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:449
+msgid ""
+"Add the URL you want and Twitter icon will appear. Just leave it blank ,To "
+"remove it.</br><small>Example:http://twitter.com/YOUR-USER-NAME</small>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:453
+msgid "Facebook"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:454
+msgid ""
+"Add the URL you want and Facebook icon will appear. Just leave it blank ,To "
+"remove it.</br><small>Example:http://facebook.com/YOUR-USER-NAME</small>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:458
+msgid "YouTube"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:459
+msgid ""
+"Add the URL you want and Youtube icon will appear. Just leave it blank ,To "
+"remove it.</br><small>Example:http://youtube.com/YOUR-USER-NAME</small>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:464
+msgid "Flickr"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:465
+msgid ""
+"Add the URL you want and Flickr icon will appear. Just leave it blank ,To "
+"remove it.</br><small>Example:http://filckr.com/YOUR-USER-NAME</small>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:469
+msgid "LinkedIn"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:470
+msgid ""
+"Add the URL you want and LinkedIn icon will appear. Just leave it blank ,To "
+"remove it."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:475
+msgid "Google Plus"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:476
+msgid ""
+"Add the URL you want and Google Plus icon will appear. Just leave it blank ,"
+"To remove it."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:480
+msgid "Digg"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:481
+msgid ""
+"Add the URL you want and Digg icon will appear. Just leave it blank ,To "
+"remove it."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:492
+msgid "<h3>Share Posts in Social Networks</h3>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:497
+msgid "Social Shares in Single Posts"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:498
+msgid "Select to enable/disable to show the social Shares in Single Posts."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:503
+msgid "Facebook Like"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:504
+msgid "Select to enable/disable to show the Facebook Like in Single Posts."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:509
+msgid "Google +1 button"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:510
+msgid "Select to enable/disable to show the Google +1 button in Single Posts."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:515
+msgid "Twitter Tweet"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:516
+msgid ""
+"Select to enable/disable to show the Twitter Tweet button in Single Posts."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:521
+msgid "Pin it Button"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:522
+msgid "Select to enable/disable to show the Pin it Button in Single Posts."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:527
+msgid "Stumble  Button"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:528
+msgid "Select to enable/disable to show the Stumble Button in Single Posts."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:533
+msgid "AddThis Share Pill"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:534
+msgid "Select to enable/disable to show AddThis Share Pill in Single Posts."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:540
+msgid "Ad Banners"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:545
+msgid "<h3>Advertisements Settings</h3>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:549
+msgid "Header Ad"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:550
+msgid "Show Header Ad box"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:555
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:576
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:598
+msgid "Upload Ad Banner Image"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:556
+msgid ""
+"Upload a 468x60 or 728x90 Banner Ad image. </br></br><li>If you want to show "
+"Banner, Upload Banner Ad Image and enter the Banner URL Below.</li><li>If "
+"you want to show Adsense like ads, then remove the Banner image and add the "
+"code below</li>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:561
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:582
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:604
+msgid "Enter AD Code or Banner AD URL"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:562
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:583
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:605
+msgid ""
+"Enter your Ad code like Adsense Scripts here OR Enter Banner AD URL only.</"
+"br></br>\n"
+"\t\t\t\t\t<li>If you want to show Adsense like ads, then add Ad code.</"
+"li><li>If you want to show Banner ad,then remove the Ad Code and add Banner "
+"URL</li>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:570
+msgid "Show Ad the in Beginning of Post"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:571
+msgid ""
+"Enter your Ad code here. This will be added into the Post after the Post "
+"title."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:577
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:599
+msgid ""
+"Upload a Banner Ad image. </br></br><li>If you want to show Banner, Upload "
+"Banner Ad Image and enter the Banner URL Below.</li><li>If you want to show "
+"Adsense like ads, then remove the Banner image and add the code below</li>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:592
+msgid "Show Ad in the End of Post"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:593
+msgid "Enter your Ad code here. This will be added into the end of the post."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:613
+msgid "Sidebar Ads"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:614
+msgid ""
+"To Show Sidebar Ad, Go to Widgets Page. Select ThemePacific: 300x250 Banner "
+"Ad Widget"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:619
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:628
+msgid "Theme Skins"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:624
+msgid "<h3>Stylish Theme Skins</h3>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:645
+msgid "Typography"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:648
+msgid "Typography Settings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:654
+msgid "Body Font"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:655
+msgid "Specify the body font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:659
+msgid "Top Menu Navigation"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:660
+msgid "Specify the Header Top Menu font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:664
+msgid "Category Menu Navigation"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:665
+msgid "Specify the Category Menu Navigation font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:669
+msgid "Blog and Magazine Category Title"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:670
+msgid "Specify the Blog and Magazine Category Title font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:674
+msgid "Sidebar Widget Title"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:675
+msgid "Specify the Sidebar Widget Title font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:679
+msgid "Footer Blocks Widget Title"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:680
+msgid "Specify the Footet Blocks Widget Title font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:685
+msgid "Typography Post elements Settings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:693
+msgid "Post Title"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:694
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:699
+msgid "Specify the Single Post Title font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:698
+msgid "Post Meta"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:703
+msgid "Post Content"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:704
+msgid "Specify the Post Content font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:708
+msgid "Author Box"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:709
+msgid "Specify the Author Box font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:713
+msgid "Single Post Navigation"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:714
+msgid "Specify Single Post and comment navigation font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:718
+msgid "Comments Block"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:719
+msgid "Specify the Comments Block content font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:723
+msgid "Typography Post Content Headings Settings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:730
+msgid "H1 Headings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:731
+msgid "Specify the H1 Headings font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:736
+msgid "H2 Headings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:737
+msgid "Specify the H2 Headings font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:742
+msgid "H3 Headings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:743
+msgid "Specify the H3 Headings font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:748
+msgid "H4 Headings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:749
+msgid "Specify the H4 Headings font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:754
+msgid "H5 Headings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:755
+msgid "Specify the H5 Headings font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:760
+msgid "H6 Headings"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:761
+msgid "Specify the H6 Headings font properties"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:768
+msgid "Styling"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:770
+msgid "Site Styling Settings Page"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:778
+msgid "Body Background Color"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:779
+msgid "Pick a background color for the theme (default: #fff)."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:785
+msgid "Background Patterns"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:792
+msgid "Upload Background Pattern"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:793
+msgid ""
+"Upload a Custom background pattern.</br></br><b>Note:</b>If you want to show "
+"default background pattern then remove the custom Pattern"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:798
+msgid "Custom Pattern as Full Screen background"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:799
+msgid "To Show Custom Pattern as Full Screen background"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:805
+msgid "Full Screen background in Gallery Attachment"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:806
+msgid "Show  gallery image as Full Screen background in Gallery Attachment"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:812
+msgid "Custom CSS"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:813
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:819
+msgid "Backup Options"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:824
+msgid "<h3>Backup and Restore</h3>"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:828
+msgid "Backup and Restore Options"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:832
+msgid ""
+"You can use the two buttons below to backup your current options, and then "
+"restore it back at a later time. This is useful if you want to experiment on "
+"the options but would like to keep the old settings in case you need it back."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:835
+msgid "Transfer Theme Options Data"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/functions/functions.options.php:839
+msgid ""
+"You can tranfer the saved options data between different installs by copying "
+"the text inside the text box. To import data from another install, replace "
+"the data in the text box with the one from another install and click "
+"\"Import Options\".\n"
+"\t\t\t\t\t\t"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/shortcodes/shortcodes.php:1
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/shortcodes/shortcodes.php:1
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/homepage_1col_widget.php:6
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/homepage_2col_widget.php:1
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/slide_tabs.php:67
+msgid "No Comments"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/shortcodes/shortcodes.php:1
+msgid " Comments"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/shortcodes/shortcodes.php:1
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/homepage_1col_widget.php:6
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/homepage_2col_widget.php:1
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/slide_tabs.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/sidebarplus/add_sidebars.php:152
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/sidebarplus/add_sidebars.php:169
+msgid "Sidebar Plus"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/sidebarplus/add_sidebars.php:240
+msgid "No Sidebars defined"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:33
+msgid "Display up to 6 125x125 banner ads in a block."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:41
+msgid "Periodic 125x125 Banner Ads"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:92
+msgid ""
+"For each banner to appear, you will have to do one of the following. If left "
+"blank, no ad will appear."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:94
+msgid ""
+"Self Hosted Banner Image: Enter the following code replacing the link URL "
+"and image URL with your own"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:96
+msgid "Ad Programs: Enter the the provided code."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:98
+msgid "Shortcode: Enter the the provided shortcode."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:101
+msgid "125 x 125 Ad 1"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:106
+msgid "125 x 125 Ad 2"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:111
+msgid "125 x 125 Ad 3"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:116
+msgid "125 x 125 Ad 4"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:121
+msgid "125 x 125 Ad 5"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/125ads-widget.php:126
+msgid "125 x 125 Ad 6"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/300banner-widget.php:34
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/300banner-widget.php:72
+msgid "Widget will display Single 300x250 Ad , in your sidebar."
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/300banner-widget.php:35
+msgid "ThemePacific: 300x250 Banner Ad"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/300banner-widget.php:76
+msgid "Enter 300 x 250 Ad Code:"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/category-post-widget.php:31
+msgid "A Widget to dispaly Category Posts With Thumbs"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/category-post-widget.php:32
+msgid "ThemePacific : Category Posts Widget"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/category-post-widget.php:100
+msgid "Category Name "
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/category-post-widget.php:104
+msgid "Enter category Name:"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/category-post-widget.php:110
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/recent-post-widget.php:105
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/slide_tabs.php:130
+msgid "Number of Posts to Show:"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/flickr-widget.php:1
+msgid "A Flickr widget to Display flickr photo streams"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/flickr-widget.php:1
+msgid "ThemePacific : Flickr"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/flickr-widget.php:1
+msgid "Flickr "
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/flickr-widget.php:1
+msgid "0"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/flickr-widget.php:1
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/recent-post-widget.php:99
+msgid "Title:"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/flickr-widget.php:1
+msgid "Flickr ID:"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/flickr-widget.php:1
+msgid "Number of Photos to Display:"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/flickr-widget.php:1
+msgid "Type (user or group):"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/flickr-widget.php:1
+msgid "Display (random or latest):"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/homepage_1col_widget.php:6
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/homepage_2col_widget.php:1
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/slide_tabs.php:67
+msgid "% Comments"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/homepage_2col_widget.php:1
+msgid "Display Small thumbnails in Both?"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/homepage_2col_widget.php:1
+msgid "Display Excerpts in First Post only?"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/recent-post-widget.php:31
+msgid "A Widget to dispaly Recent Posts With Thumbs"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/recent-post-widget.php:32
+msgid "ThemePacific : Recent Posts Widget"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/recent-post-widget.php:95
+msgid "Recent Posts "
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/slide_tabs.php:31
+msgid "Stylish Tabbed Widget to dispaly Popular and Recent Posts"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/slide_tabs.php:32
+msgid "ThemePacific : Tabbed Widget"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/slide_tabs.php:127
+msgid "To Show Recent Posts and Popular Posts in Stylish Tabbed Content Format"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/admin/widgets/tweets-widget.php:1
+msgid "Loading Tweets"
+msgstr ""
+
+#: C:\xampp_new\htdocs\wpdemo\wp-content\themes\Magpress/includes/related.php:72
+msgid "No posts found."
+msgstr ""
