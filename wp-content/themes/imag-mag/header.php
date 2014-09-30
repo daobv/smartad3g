@@ -30,74 +30,92 @@ if ( is_singular() && get_option( 'thread_comments' ) )		wp_enqueue_script( 'com
 <link rel='stylesheet' href='<?php echo get_template_directory_uri(); ?>/css/ie9.css' type='text/css' media='all' /> 
 <![endif]-->
 
-    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"> </script>
-<?php wp_head();?>
+    <link rel="stylesheet" href="http://dichvudidong.vn/wp-content/themes/ctnet/style.css">
+    <script type="text/javascript" src="http://dichvudidong.vn/wp-content/themes/ctnet/js/jquery.js"></script>
+    <script type="text/javascript" src="http://dichvudidong.vn/wp-content/themes/ctnet/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://dichvudidong.vn/wp-content/themes/ctnet/js/common.js"></script>
+    <script type="text/javascript" src="http://dichvudidong.vn/wp-content/themes/ctnet/js/lazyload.js"></script>
+
 </head>
 
-<body <?php body_class();?>> 
-   <?php 
-     if ( has_nav_menu('topNav') ){ 
-   ?>
-	<!-- #CatNav -->  
-	<div id="catnav">	
-		<?php wp_nav_menu(array('theme_location' => 'topNav','container'=> '','menu_id'=> 'catmenu','menu_class'=> ' container clearfix','fallback_cb' => 'false','depth' => 3)); ?>
-	</div> 
-	<!-- /#CatNav -->  
-	<?php } ?> 
-<!-- /#Header --> 
-<div id="header" class="container">	
-	<div id="head-content" class="clearfix ">
+<body>
+<nav class="navbar navbar-default navbar-top" role="navigation">
+    <div class="container inner-container text-center">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_top">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
 
-
-			<!-- Logo -->
-			<div id="logo">   
-				<?php if($data['custom_logo'] !='') { 
-				if($data['custom_logo']) {  $logo = $data['custom_logo']; 		
-				} else { $logo = get_template_directory_uri() . '/images/logo31.png';
-				} ?>  <a href="<?php echo esc_url( home_url( '/' ) );  ?>" title="<?php bloginfo( 'name' ); ?>" rel="home"><img src="<?php echo $logo; ?>" alt="<?php bloginfo( 'name' ) ?>" /></a>    
-				<?php } else { ?>   
-				<?php if (is_home()) { ?>     
-				<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1> <span><?php bloginfo( 'description' ); ?></span>
-				<?php } else { ?>  
-				<h2><a href="<?php echo esc_url( home_url( '/' ) );  ?>" title="<?php bloginfo( 'name' ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>  
-				<?php } } ?>   
-			</div>
-
-        <!-- /#Logo -->
-		<!-- Header Ad -->
- 		<div id="header-banner468">
-            <form method="get" class="searchform" action="<?php echo home_url(); ?>/">
-                <input class="searchfield" type="text" name="s" id="s" value="<?php _e('Search here..', 'imagmag'); ?>" onfocus="if (this.value == '<?php _e('Search here..', 'imagmag'); ?>') {this.value = '';}" onblur="if (this.value == '')
-                    {this.value = '<?php _e('Search here..', 'imagmag'); ?>';}">
-                <span class="input-group-btn">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse text-center" id="nav_top">
+            <ul id="menu-navbar-top" class="nav navbar-nav menu text-center"><li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="http://dichvudidong.vn/dang-ky-dich-vu-3g-mobile-internet-cho-mobifone">Internet 3G</a></li>
+                <li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="http://dichvudidong.vn/dang-ky-thong-bao-cuoc-goi-nho-mca-mobifone">Báo cuộc gọi nhỡ MCA</a></li>
+                <li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="http://dichvudidong.vn/dang-ky-dich-vu-nhac-cho-funring-mobifone">Nhạc chờ Funring</a></li>
+            </ul>        </div><!-- /.container-fluid -->
+    </div>
+</nav>
+<header id="header" class="header">
+    <div class="container inner-container">
+        <div class="row form-group">
+            <div class="col-md-3">
+                <h1 class="logo">
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                        Dịch vụ giá trị gia tăng VAS Mobifone | Dịch Vụ Di Động                        <img src="http://dichvudidong.vn/wp-content/uploads/2014/08/logo31.png" alt="Dichvudidong.vn" class="img-responsive">
+                    </a>
+                </h1>
+            </div>
+            <div class="col-md-6 ">
+                <div class="search_box">
+                    <form action="<?php echo home_url(); ?>/">
+                        <div class="input-group">
+                            <input type="text" value="" placeholder="Tìm kiếm dịch vụ" class="form-control" name="s" id="s">
+                        <span class="input-group-btn">
                             <button type="submit" id="searchsubmit" class="btn btn-default">
                                 <b class="glyphicon glyphicon-search"></b> Search
                             </button>
-                </span>
-            </form>
-		</div>
-        <div class="service-logo">
-            <img src ="<?php echo get_template_directory_uri(); ?>/images/logo-mobi.png" alt="<?php bloginfo( 'name' ); ?>">
+                        </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="logo-mobi">
+                    <img src="http://dichvudidong.vn/wp-content/themes/ctnet/img/logo-mobi.png" alt="Dichvudidong.vn" class="img-responsive">
+                </div>
+            </div>
         </div>
-		<!-- /#Header Ad -->
-	</div>	
- </div>
-<!-- /#Header --> 
 
-<!-- #wrapper -->	
-<div id="wrapper" class="container clearfix"> 
-   <?php 
-     if ( has_nav_menu('mainNav') ){ 
-   ?>
-	<!-- #CatNav -->  
-	<div id="catnav_2" class="secondary">	
-		<?php wp_nav_menu(array('theme_location' => 'mainNav','container'=> '','menu_id'=> 'catmenu_2','menu_class'=> 'catnav  container clearfix','fallback_cb' => 'false','depth' => 3)); ?>
-	</div> 
-	<!-- /#CatNav -->  
-	<?php } ?> 
- 
-	<!--[if lt IE 8]>
-		<div class="msgnote"> 
-			Your browser is <em>too old!</em> <a rel="nofollow" href="http://browsehappy.com/">Upgrade to a different browser</a> to experience this site. 
-		</div>
-	<![endif]-->	
+    </div>
+</header>
+
+<!-- /#Header -->
+
+<!-- #wrapper -->
+<div class="container inner-container"">
+<nav class="navbar navbar-inverse" role="navigation">
+
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_main">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="nav_main">
+        <ul id="menu-header-1" class="nav navbar-nav menu">
+            <?php
+            if ( has_nav_menu('topNav') ){
+                ?>
+                <!-- #CatNav -->
+                    <?php wp_nav_menu(array('theme_location' => 'topNav','container'=> '','menu_id'=> 'menu-header','menu_class'=> 'nav navbar-nav menu','fallback_cb' => 'false','depth' => 3)); ?>
+                <!-- /#CatNav -->
+            <?php } ?>
+        </ul>
+    </div>
+ </nav>

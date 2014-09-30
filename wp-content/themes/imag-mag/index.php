@@ -1,25 +1,36 @@
 <?php get_header(); ?>
-  
+
 <!--#blocks-wrapper-->
-<div id="blocks-wrapper" class="clearfix">
+<div  class="main_site">
+    <div class="row">
 <!--#blocks-left-or-right-->
 
-	<div id="blocks-left" class="eleven columns clearfix">	
+	<div class="col-md-8 non_pd_r">
    			<?php  include_once('includes/flex-slider.php');?>
-<!--homepage content-->
- 							<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Magazine Style Widgets)')){ ?>
-							
-							<div class="blogposts-wrapper clearfix">
-									<div class="maga-excerpt">
-									<p class="msgnote">
-										This is Magazine Block. You can add the Magazine style content widgets that appears here by visiting your <a style="color:#0BAED6" href="<?php echo home_url();?>/wp-admin/widgets.php">Widgets panel.</a>
-									</p>
-								</div>
-							</div>
-								
-							<?php } ?>
- 
+        <?php $pages = get_pages(array('number'=>6)); ?>
+        <div class="row form-group top_dv">
+            <?php foreach($pages as $page):?>
+            <div class="col-md-4 col-sm-6">
+                <div class="panel panel-default">
+                    <a class="thumbnail" href="http://dichvudidong.vn/dang-ky-dich-vu-3g-mobile-internet-cho-mobifone" title="Hướng dẫn đăng ký dịch vụ 3G Mobile Internet mạng Mobifone">
+                        <?php echo get_the_post_thumbnail( $page->ID, 'thumbnail' );?><h2 class="top_dv_title">
+                            <?php echo $page->post_title;?> </h2>
+                    </a>
+                    <div class="panel-body">
+                        <?php echo $page->post_title;?> </div>
+                    <div class="panel-footer">
+                        <i class="glyphicon glyphicon-send"></i>  ON MIU gửi 9084									</div>
+                </div>
+            </div>
+            <?php endforeach;?>
+        </div>
+
   			</div>
+        <div class="col-md-4">
+            <?php get_sidebar();  ?>
+        </div>
+    </div>
  			<!-- /blocks col -->
- <?php get_sidebar();  ?>
+
+
  <?php get_footer(); ?>

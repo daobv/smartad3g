@@ -1,5 +1,5 @@
 <!-- .fluid_container-->
-<div class="fluid_container clearfix">
+<div class="fluid_container clearfix" style="margin-bottom: 15px;">
    <!-- #camera_wrap_2 -->
   <div class="slider-container" >
       <?php echo do_shortcode("[huge_it_slider id='1']"); ?>

@@ -1,11 +1,10 @@
 <?php get_header(); ?>
 <!-- #blocks-wrapper-->
-<div id="blocks-wrapper" class="clearfix">
+<div class="main_site">
+    <div class="row main-site"
     <?php if (have_posts()) : while (have_posts()) : the_post();  ?>	
 	<!-- /blocks Left-->
-		<div id="blocks-left" <?php post_class('eleven columns');?>>	 		
-		
-		
+		<div class="col-md-8 col-content">
 		<!-- .post-content-->
 		<div class="post-content">
    
@@ -33,8 +32,12 @@
   				<?php endwhile; endif; ?>
 			
 			</div>
+    <div class="col-md-4">
+        <?php get_sidebar(); ?>
+    </div>
+    </div>
 			<!-- /blocks Left -or -right -->
  			
  			
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
