@@ -67,8 +67,13 @@ if ( is_singular() && get_option( 'thread_comments' ) )		wp_enqueue_script( 'com
 		<!-- Header Ad -->
  		<div id="header-banner468">
             <form method="get" class="searchform" action="<?php echo home_url(); ?>/">
-                <input class="searchfield" type="text" name="s" id="s" value="<?php _e('Search here..', 'imagmag'); ?>" onfocus="if (this.value == '<?php _e('Search here..', 'imagmag'); ?>') {this.value = '';}" onblur="if (this.value == '') {this.value = '<?php _e('Search here..', 'imagmag'); ?>';}">
-
+                <input class="searchfield" type="text" name="s" id="s" value="<?php _e('Search here..', 'imagmag'); ?>" onfocus="if (this.value == '<?php _e('Search here..', 'imagmag'); ?>') {this.value = '';}" onblur="if (this.value == '')
+                    {this.value = '<?php _e('Search here..', 'imagmag'); ?>';}">
+                <span class="input-group-btn">
+                            <button type="submit" id="searchsubmit" class="btn btn-default">
+                                <b class="glyphicon glyphicon-search"></b> Search
+                            </button>
+                </span>
             </form>
 		</div>
         <div class="service-logo">

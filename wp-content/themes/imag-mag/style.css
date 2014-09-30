@@ -132,17 +132,16 @@ background: #fff;}
 
 	
 	#header {clear: both;margin: 0 auto;padding: 0;border-bottom: none!important;position: relative;z-index: 1;}
- 	#head-content {margin: 0 auto;padding:10px;position: relative; position:relative;min-height:60px;z-index:98;}
+ 	#head-content {margin: 0 auto;padding:0px;position: relative; position:relative;min-height:60px;z-index:98;}
 	.head-strip{border-top:5px solid #B6B4B0;}
-	#logo {margin: 20px 10px 10px 5px;text-align:left;color:#555;float: left;}
+	#logo {margin: 0px 0px 0px 0px;text-align:left;color:#555;float: left; width:25%}
  	#logo h1, #logo h2 {font-size: 32px;margin: 0 !important;line-height: 35px !important;}
 	#logo a {font-weight: 700;color: #333;padding: 0px;margin: 0px;text-decoration: none;}
-	#header-banner468{text-align:center;width: 50%;float: left;line-height: 1;
+	#header-banner468{text-align:center;float: left;line-height: 1;
         font-size: 13px;
         background: #F5F3F4 url(images/bg.jpg) top center no-repeat; }
     .service-logo{
         text-align: center;
-        width: 20%;
         min-height: 60px;
         float: left;
         line-height: 1;
@@ -565,10 +564,43 @@ float: left;
 display: inline-block;} 
  	.sb-post-thumbnail {position: relative;float: left;width: 70px;height: 70px;}	
 	.sb-post-thumbnail img{width:75%;height:100%;}
-	.searchform,.subsform{padding: 35px 0px 10px;text-align: center;}
-	.searchform input[type="text"],.subsform input[type="text"] {background: whiteSmoke;margin-right: -6px;padding: 10px 0 10px 10px;width: 100%;border: 1px solid #DDD;-moz-box-shadow: 0 0 5px #ddd inset;-webkit-box-shadow: 0 0 5px #DDD inset;box-shadow: 0 0 5px #DDD inset;font-size: 14px;}
-	.subsform input[type="submit"]{border: 1px solid #EEE;padding: 8px 35px;margin-top: 5px;cursor: pointer;}
+	.searchform,.subsform{padding: 35px 0px 10px;text-align: center;width: 100%}
+	.searchform input[type="text"],.subsform input[type="text"] {
 
+        padding: 4px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        margin-right: -6px;border: 1px solid #DDD;
+        -moz-box-shadow: 0 0 5px #ddd inset;-webkit-box-shadow: 0 0 5px #DDD inset;
+        box-shadow: 0 0 5px #DDD inset;font-size: 14px;}
+	.subsform input[type="submit"]{border: 1px solid #EEE;padding: 8px 35px;margin-top: 5px;cursor: pointer;}
+    .searchform .input-group-btn{
+        text-shadow: 0 1px 0 #fff;
+        border-color: #ccc;
+    }
+    .btn{
+        display: inline-block;
+        margin-top: 0;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        background-image: none;
+        border: 1px solid transparent;
+        white-space: nowrap;
+        padding: 5px 12px;
+        font-size: 14px;
+
+        border-radius: 4px;
+        -webkit-user-select: none;
+    }
 #footer-blocks .sb-post-thumbnail  {margin-right: 12px;
 display: inline-block;
 vertical-align: top;width: 60px;
