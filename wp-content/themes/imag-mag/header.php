@@ -30,15 +30,16 @@ if ( is_singular() && get_option( 'thread_comments' ) )		wp_enqueue_script( 'com
 <link rel='stylesheet' href='<?php echo get_template_directory_uri(); ?>/css/ie9.css' type='text/css' media='all' /> 
 <![endif]-->
 
-    <link rel="stylesheet" href="http://dichvudidong.vn/wp-content/themes/ctnet/style.css">
-    <script type="text/javascript" src="http://dichvudidong.vn/wp-content/themes/ctnet/js/jquery.js"></script>
-    <script type="text/javascript" src="http://dichvudidong.vn/wp-content/themes/ctnet/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="http://dichvudidong.vn/wp-content/themes/ctnet/js/common.js"></script>
-    <script type="text/javascript" src="http://dichvudidong.vn/wp-content/themes/ctnet/js/lazyload.js"></script>
-
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/lazyload.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<?php wp_head(); ?>
 </head>
 
-<body>
+<body style="background-color: #F5F3F4">
 <nav class="navbar navbar-default navbar-top" role="navigation">
     <div class="container inner-container text-center">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -53,9 +54,16 @@ if ( is_singular() && get_option( 'thread_comments' ) )		wp_enqueue_script( 'com
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse text-center" id="nav_top">
-            <ul id="menu-navbar-top" class="nav navbar-nav menu text-center"><li id="menu-item-253" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-253"><a href="http://dichvudidong.vn/dang-ky-dich-vu-3g-mobile-internet-cho-mobifone">Internet 3G</a></li>
-                <li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="http://dichvudidong.vn/dang-ky-thong-bao-cuoc-goi-nho-mca-mobifone">Báo cuộc gọi nhỡ MCA</a></li>
-                <li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="http://dichvudidong.vn/dang-ky-dich-vu-nhac-cho-funring-mobifone">Nhạc chờ Funring</a></li>
+            <ul id="menu-navbar-top" class="nav navbar-nav menu text-center">
+                <li id="menu-item-253" class="menu-item menu-item-type-post_type
+                menu-item-object-page menu-item-253">
+                    <a href="http://3g-mobifone.com.vn/mobile-internet-3g/">Internet 3G</a></li>
+                <li id="menu-item-252"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252">
+                    <a href="http://3g-mobifone.com.vn/mca-thong-bao-cuoc-goi-nho/">Báo cuộc gọi nhỡ MCA</a></li>
+                <li id="menu-item-251
+                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251">
+                <a href="http://3g-mobifone.com.vn/nc-nhac-chuong-cho-dt/">Nhạc chờ Funring</a></li>
             </ul>        </div><!-- /.container-fluid -->
     </div>
 </nav>
@@ -65,7 +73,8 @@ if ( is_singular() && get_option( 'thread_comments' ) )		wp_enqueue_script( 'com
             <div class="col-md-3">
                 <h1 class="logo">
                     <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                        Dịch vụ giá trị gia tăng VAS Mobifone | Dịch Vụ Di Động                        <img src="http://dichvudidong.vn/wp-content/uploads/2014/08/logo31.png" alt="Dichvudidong.vn" class="img-responsive">
+                        Dịch vụ giá trị gia tăng VAS Mobifone | Dịch Vụ Di Động
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo-3g-mobifone.png" alt="3g mobifone" class="img-responsive">
                     </a>
                 </h1>
             </div>
@@ -85,7 +94,7 @@ if ( is_singular() && get_option( 'thread_comments' ) )		wp_enqueue_script( 'com
             </div>
             <div class="col-md-3 ">
                 <div class="logo-mobi">
-                    <img src="http://dichvudidong.vn/wp-content/themes/ctnet/img/logo-mobi.png" alt="Dichvudidong.vn" class="img-responsive">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo-mobi.png" alt="Dichvudidong.vn" class="img-responsive">
                 </div>
             </div>
         </div>

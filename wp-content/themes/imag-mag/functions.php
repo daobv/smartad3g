@@ -103,9 +103,9 @@ function imagmag_themepacific_widgets_init() {
 
  	register_sidebar(array(
 		'name' => 'Default Sidebar',
-		'before_widget' => '<div id="%1$s" class="sidebar-widget %2$s">',
-		'after_widget' => '</div>',
-		'before_title' => '<h3 class="widget-head">',
+		'before_widget' => '<aside id="text-4" class="widget %2$s">',
+		'after_widget' => '</aside>',
+		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	));
 	

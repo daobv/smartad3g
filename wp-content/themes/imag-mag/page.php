@@ -6,12 +6,15 @@
 	<!-- /blocks Left-->
 		<div class="col-md-8 col-content">
 		<!-- .post-content-->
-		<div class="post-content">
+            <div>
+                <ol class="breadcrumb"><li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><i class="glyphicon glyphicon-home"></i> Home</a></li></ol>
+            </div>
+         <article class="innerContent">
    
    		<!--/.post-outer -->
 			<div class="post-outer clearfix">
   				<!--.post-title-->
- 				  <div class="post-title"><h1 class="entry-title"><?php the_title(); ?></h1></div>
+ 				  <header class="post-heading"><h2 class="post_title single-title"><?php the_title(); ?></h2></header>
 				  <!--/.post-title-->
  			 <!-- .post_content -->
 			  <div class = 'post_content entry-content'>
@@ -26,7 +29,7 @@
 			</div>
 		<!--/.post-outer -->
  
-		</div>
+		</article>
 		<!-- post-content-->
  <?php comments_template(); ?>
   				<?php endwhile; endif; ?>

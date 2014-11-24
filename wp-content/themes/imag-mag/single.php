@@ -1,34 +1,33 @@
 <?php get_header(); ?>
 <!-- #blocks-wrapper-->
-<div id="blocks-wrapper" class="clearfix">
+<div class="main_site">
     <?php if (have_posts()) : while (have_posts()) : the_post();  ?>
 
 	<!-- /blocks Left -or -right -->
-	<div id="blocks-left" <?php post_class('eleven columns');?>>
+	<div class="row main-site">
 
 		<!-- .post-content-->
-		<div class="post-content">
-  				<?php
-			  if($data['posts_bread'] == 'On' ) {
-			  imagmag_themepacific_breadcrumb();
-			  }
-			 ?>
+		<div class="col-md-8 col-content">
+            <div>
+                <ol class="breadcrumb"><li><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><i class="glyphicon glyphicon-home"></i>
+                            Home</a></li>
+                </ol>
+            </div>
 		<!--/.post-outer -->
-			<div class="post-outer clearfix">
+			<div class="innerContent">
+            <article class="post-heading">
 
  				<!--.post-title-->
- 				  <div class="post-title"><h1 class="entry-title"><?php the_title(); ?></h1></div>
+ 				  <h2 class="post_title single-title"><?php the_title(); ?></h2>
 				  <!--/.post-title-->
  		<!--/#post-meta -->
-			<div class="post-meta-blog">
-			<span class="meta_author"><?php _e('Posted by', 'imagmag'); ?> <?php the_author_posts_link(); ?></span>
-			<span class="meta_date"><?php _e('On', 'imagmag'); ?> <?php the_time('F d, Y'); ?></span>
-			<span class="meta_comments"><?php _e('', 'imagmag'); ?>  <a href="<?php comments_link(); ?>"><?php comments_number('0 Comment', '1 Comment', '% Comments'); ?></a></span>
- 			<?php edit_post_link( __( 'Edit', 'imagmag' ), '<span class="edit-link">', '</span>' ); ?>
+			<div class="post-meta form-group hidden-xs">
+			<i class="glyphicon glyphicon-user"><?php _e('Posted by', 'imagmag'); ?> <?php the_author_posts_link(); ?></i>
+			<i class="glyphicon glyphicon-time"><?php _e('On', 'imagmag'); ?> <?php the_time('F d, Y'); ?></i>
  			</div>
 			<!--/#post-meta -->
 			 <!-- .post_content -->
-			  <div class = 'post_content entry-content'>
+			  <div class = 'form-group post_content'>
   					<?php the_content(); ?>
   					<div class="clear"></div>
  			 </div>
@@ -40,6 +39,8 @@
 						<strong>TOPICS </strong><?php the_tags('',''); ?>
 						</p>
 						<?php } ?>
+
+            </article>
 			</div>
 		<!--/.post-outer -->
 
@@ -59,9 +60,11 @@
    					<?php comments_template(); ?>
  				<?php endwhile; endif; ?>
 
-			</div>
+
 			<!-- /blocks Left-->
+            <div class="col-md-4">
+                <?php  get_sidebar(); ?>
+            </div>
 
-<?php  get_sidebar(); ?>
-
+    </div>
 <?php get_footer(); ?>
